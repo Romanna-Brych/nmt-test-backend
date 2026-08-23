@@ -1,0 +1,311 @@
+export const questions = [
+  // Елементарна математика
+  {
+    topic: "elementary-math",
+    text: "15 + 27 = ?",
+    options: ["40", "41", "42", "43"],
+    correctAnswer: "42",
+  },
+  {
+    topic: "elementary-math",
+    text: "8 × 7 = ?",
+    options: ["54", "56", "58", "64"],
+    correctAnswer: "56",
+  },
+  {
+    topic: "elementary-math",
+    text: "100 − 37 = ?",
+    options: ["53", "63", "67", "73"],
+    correctAnswer: "63",
+  },
+  {
+    topic: "elementary-math",
+    text: "144 ÷ 12 = ?",
+    options: ["10", "11", "12", "14"],
+    correctAnswer: "12",
+  },
+  {
+    topic: "elementary-math",
+    text: "25% від 200 дорівнює:",
+    options: ["25", "40", "50", "75"],
+    correctAnswer: "50",
+  },
+  {
+    topic: "elementary-math",
+    text: "3/4 від числа 20 дорівнює:",
+    options: ["10", "12", "15", "16"],
+    correctAnswer: "15",
+  },
+  {
+    topic: "elementary-math",
+    text: "2³ + 4 = ?",
+    options: ["8", "10", "12", "16"],
+    correctAnswer: "12",
+  },
+  {
+    topic: "elementary-math",
+    text: "Яке число є найбільшим?",
+    options: ["0.5", "0.75", "0.25", "0.6"],
+    correctAnswer: "0.75",
+  },
+  {
+    topic: "elementary-math",
+    text: "Скільки становить 1/5 від 100?",
+    options: ["5", "10", "20", "25"],
+    correctAnswer: "20",
+  },
+  {
+    topic: "elementary-math",
+    text: "Обчисліть: 6 + 3 × 4",
+    options: ["18", "24", "36", "15"],
+    correctAnswer: "18",
+  },
+
+  // Алгебра
+  {
+    topic: "algebra",
+    text: "Розв'яжіть рівняння: x + 5 = 12",
+    options: ["5", "6", "7", "8"],
+    correctAnswer: "7",
+  },
+  {
+    topic: "algebra",
+    text: "Розв'яжіть рівняння: 2x = 16",
+    options: ["6", "7", "8", "9"],
+    correctAnswer: "8",
+  },
+  {
+    topic: "algebra",
+    text: "Розв'яжіть рівняння: x − 4 = 10",
+    options: ["6", "12", "14", "16"],
+    correctAnswer: "14",
+  },
+  {
+    topic: "algebra",
+    text: "Розв'яжіть рівняння: 3x + 2 = 14",
+    options: ["3", "4", "5", "6"],
+    correctAnswer: "4",
+  },
+  {
+    topic: "algebra",
+    text: "Розв'яжіть рівняння: 5x − 10 = 20",
+    options: ["4", "5", "6", "8"],
+    correctAnswer: "6",
+  },
+  {
+    topic: "algebra",
+    text: "Спростіть вираз: 3x + 2x",
+    options: ["5x", "6x", "5x²", "x"],
+    correctAnswer: "5x",
+  },
+  {
+    topic: "algebra",
+    text: "Розкрийте дужки: 3(x + 2)",
+    options: ["3x + 2", "3x + 5", "3x + 6", "6x"],
+    correctAnswer: "3x + 6",
+  },
+  {
+    topic: "algebra",
+    text: "Чому дорівнює x², якщо x = 5?",
+    options: ["10", "20", "25", "50"],
+    correctAnswer: "25",
+  },
+  {
+    topic: "algebra",
+    text: "Розв'яжіть рівняння: x / 4 = 3",
+    options: ["7", "8", "12", "16"],
+    correctAnswer: "12",
+  },
+  {
+    topic: "algebra",
+    text: "Розв'яжіть рівняння: 2(x + 3) = 14",
+    options: ["3", "4", "5", "7"],
+    correctAnswer: "4",
+  },
+
+  // Геометрія
+  {
+    topic: "geometry",
+    text: "Скільки градусів має прямий кут?",
+    options: ["45°", "60°", "90°", "180°"],
+    correctAnswer: "90°",
+  },
+  {
+    topic: "geometry",
+    text: "Чому дорівнює площа квадрата зі стороною 5 см?",
+    options: ["10 см²", "20 см²", "25 см²", "30 см²"],
+    correctAnswer: "25 см²",
+  },
+  {
+    topic: "geometry",
+    text: "Скільки сторін має трикутник?",
+    options: ["2", "3", "4", "5"],
+    correctAnswer: "3",
+  },
+  {
+    topic: "geometry",
+    text: "Чому дорівнює периметр квадрата зі стороною 6 см?",
+    options: ["12 см", "18 см", "24 см", "36 см"],
+    correctAnswer: "24 см",
+  },
+  {
+    topic: "geometry",
+    text: "Сума кутів трикутника дорівнює:",
+    options: ["90°", "180°", "270°", "360°"],
+    correctAnswer: "180°",
+  },
+  {
+    topic: "geometry",
+    text: "Чому дорівнює площа прямокутника зі сторонами 4 см і 7 см?",
+    options: ["11 см²", "22 см²", "28 см²", "32 см²"],
+    correctAnswer: "28 см²",
+  },
+  {
+    topic: "geometry",
+    text: "Радіус кола дорівнює 5 см. Чому дорівнює його діаметр?",
+    options: ["2.5 см", "5 см", "10 см", "25 см"],
+    correctAnswer: "10 см",
+  },
+  {
+    topic: "geometry",
+    text: "Скільки діагоналей має квадрат?",
+    options: ["1", "2", "3", "4"],
+    correctAnswer: "2",
+  },
+  {
+    topic: "geometry",
+    text: "Який трикутник має три рівні сторони?",
+    options: ["Прямокутний", "Рівнобедрений", "Рівносторонній", "Тупокутний"],
+    correctAnswer: "Рівносторонній",
+  },
+  {
+    topic: "geometry",
+    text: "Чому дорівнює гіпотенуза прямокутного трикутника з катетами 3 см і 4 см?",
+    options: ["5 см", "6 см", "7 см", "8 см"],
+    correctAnswer: "5 см",
+  },
+
+  // Функції
+  {
+    topic: "functions",
+    text: "Знайдіть значення функції y = 2x + 1 при x = 3.",
+    options: ["5", "6", "7", "8"],
+    correctAnswer: "7",
+  },
+  {
+    topic: "functions",
+    text: "Знайдіть значення функції y = x² при x = 4.",
+    options: ["8", "12", "16", "20"],
+    correctAnswer: "16",
+  },
+  {
+    topic: "functions",
+    text: "Яка з наведених функцій є лінійною?",
+    options: ["y = 2x + 3", "y = x²", "y = 1/x", "y = x³"],
+    correctAnswer: "y = 2x + 3",
+  },
+  {
+    topic: "functions",
+    text: "Знайдіть значення y = 5 − x при x = 2.",
+    options: ["2", "3", "5", "7"],
+    correctAnswer: "3",
+  },
+  {
+    topic: "functions",
+    text: "Яка точка належить графіку функції y = 2x?",
+    options: ["(1; 1)", "(1; 2)", "(2; 2)", "(2; 3)"],
+    correctAnswer: "(1; 2)",
+  },
+  {
+    topic: "functions",
+    text: "Знайдіть нуль функції y = x − 5.",
+    options: ["−5", "0", "1", "5"],
+    correctAnswer: "5",
+  },
+  {
+    topic: "functions",
+    text: "Чому дорівнює y для функції y = 3x − 2 при x = 2?",
+    options: ["2", "4", "6", "8"],
+    correctAnswer: "4",
+  },
+  {
+    topic: "functions",
+    text: "Яка з функцій є квадратичною?",
+    options: ["y = x + 2", "y = 2x", "y = x² + 1", "y = 1/x"],
+    correctAnswer: "y = x² + 1",
+  },
+  {
+    topic: "functions",
+    text: "Знайдіть f(3), якщо f(x) = x + 4.",
+    options: ["6", "7", "8", "12"],
+    correctAnswer: "7",
+  },
+  {
+    topic: "functions",
+    text: "Знайдіть f(2), якщо f(x) = x² + 2x.",
+    options: ["6", "8", "10", "12"],
+    correctAnswer: "8",
+  },
+
+  // Ймовірність
+  {
+    topic: "probability",
+    text: "Монету підкидають один раз. Яка ймовірність випадіння герба?",
+    options: ["0", "1/4", "1/2", "1"],
+    correctAnswer: "1/2",
+  },
+  {
+    topic: "probability",
+    text: "Гральний кубик кидають один раз. Яка ймовірність випадіння числа 6?",
+    options: ["1/2", "1/3", "1/6", "1/12"],
+    correctAnswer: "1/6",
+  },
+  {
+    topic: "probability",
+    text: "У коробці 3 червоні та 2 сині кульки. Яка ймовірність витягнути червону кульку?",
+    options: ["2/5", "3/5", "1/2", "3/2"],
+    correctAnswer: "3/5",
+  },
+  {
+    topic: "probability",
+    text: "Яка ймовірність неможливої події?",
+    options: ["0", "1/4", "1/2", "1"],
+    correctAnswer: "0",
+  },
+  {
+    topic: "probability",
+    text: "Яка ймовірність достовірної події?",
+    options: ["0", "1/4", "1/2", "1"],
+    correctAnswer: "1",
+  },
+  {
+    topic: "probability",
+    text: "Гральний кубик кидають один раз. Яка ймовірність випадіння парного числа?",
+    options: ["1/6", "1/3", "1/2", "2/3"],
+    correctAnswer: "1/2",
+  },
+  {
+    topic: "probability",
+    text: "У коробці 4 білі та 6 чорних кульок. Яка ймовірність витягнути білу кульку?",
+    options: ["1/5", "2/5", "3/5", "4/5"],
+    correctAnswer: "2/5",
+  },
+  {
+    topic: "probability",
+    text: "У мішку 10 кульок, з яких 2 зелені. Яка ймовірність витягнути зелену кульку?",
+    options: ["1/10", "1/5", "1/2", "2/5"],
+    correctAnswer: "1/5",
+  },
+  {
+    topic: "probability",
+    text: "Гральний кубик кидають один раз. Яка ймовірність отримати число більше 4?",
+    options: ["1/6", "1/3", "1/2", "2/3"],
+    correctAnswer: "1/3",
+  },
+  {
+    topic: "probability",
+    text: "У класі 12 дівчат і 8 хлопців. Навмання обирають одного учня. Яка ймовірність обрати хлопця?",
+    options: ["1/5", "2/5", "3/5", "4/5"],
+    correctAnswer: "2/5",
+  },
+];

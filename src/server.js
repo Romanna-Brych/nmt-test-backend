@@ -1,6 +1,7 @@
 import "dotenv/config";
 import express from "express";
 import cors from "cors";
+import { connectMongoDB } from "./db/connectMongoDB.js";
 
 const app = express();
 
@@ -30,6 +31,8 @@ app.use((err, req, res, next) => {
     message: err.message || "Internal server error",
   });
 });
+
+await connectMongoDB();
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
